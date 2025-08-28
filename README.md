@@ -1,4 +1,4 @@
-# MolQAE: Quantum Autoencoder for Molecular Representation Learning ([QAI 2025](https://arxiv.org/abs/2505.01875))
+# MolQAE: Quantum Autoencoder for Molecular Representation Learning ([IEEE QAI 2025](https://arxiv.org/abs/2505.01875))
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.01875-b31b1b.svg)](https://arxiv.org/abs/2505.01875)
 [![IEEE Conference](https://img.shields.io/badge/IEEE%20QAI-2025-blue.svg)](https://qai2025.unina.it/)
