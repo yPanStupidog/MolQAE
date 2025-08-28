@@ -1,4 +1,4 @@
-# MolQAE: Quantum Autoencoder for Molecular Representation Learning
+# MolQAE: Quantum Autoencoder for Molecular Representation Learning ([QAI 2025](https://arxiv.org/abs/2505.01875))
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.01875-b31b1b.svg)](https://arxiv.org/abs/2505.01875)
 [![IEEE Conference](https://img.shields.io/badge/IEEE%20QAI-2025-blue.svg)](https://qai2025.unina.it/)
@@ -7,7 +7,7 @@
 **MolQAE** is a novel quantum autoencoder architecture designed for molecular representation learning. This implementation provides a fully quantum approach to encode molecular SMILES strings into quantum latent spaces for enhanced molecular property prediction and drug discovery applications.
 
 ## Reference
-This work has been accepted at the **2025 IEEE International Conference on Quantum Artificial Intelligence**. 
+This work has been accepted at the [**2025 IEEE International Conference on Quantum Artificial Intelligence**](https://qai2025.unina.it/). 
 
 If you find this repo useful, please consider citing:
 ```bibtex
