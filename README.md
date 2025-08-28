@@ -6,7 +6,23 @@
 
 **MolQAE** is a novel quantum autoencoder architecture designed for molecular representation learning. This implementation provides a fully quantum approach to encode molecular SMILES strings into quantum latent spaces for enhanced molecular property prediction and drug discovery applications.
 
-## ✨ Key Features
+## Reference
+This work has been accepted at the **2025 IEEE International Conference on Quantum Artificial Intelligence**. 
+
+If you find this repo useful, please consider citing:
+```bibtex
+@misc{pan2025molqaequantumautoencodermolecular,
+      title={MolQAE: Quantum Autoencoder for Molecular Representation Learning}, 
+      author={Yi Pan and Hanqi Jiang and Wei Ruan and Dajiang Zhu and Xiang Li and Yohannes Abate and Yingfeng Wang and Tianming Liu},
+      year={2025},
+      eprint={2505.01875},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2505.01875}, 
+}
+```
+
+## Key Features
 
 - **Pure Quantum Architecture**: Implements a fully quantum autoencoder without classical components
 - **Molecular Feature Encoding**: Advanced encoding of SMILES molecular features into quantum states
@@ -16,7 +32,7 @@
 - **Configurable Architecture**: Supports customizable quantum circuit depths and qubit configurations
 - **Reproducible Results**: Comprehensive seed management for experimental reproducibility
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -57,7 +73,7 @@ MolQAE/
     └── qm9.csv  # Should contain a 'SMILES' or 'smiles' column
 ```
 
-## 🔧 Usage
+## Usage
 
 ### Basic Training
 
@@ -102,7 +118,7 @@ python train.py \
 | `--checkpoint_interval` | Checkpoint saving interval | 20 | 5-100 |
 | `--seed` | Random seed for reproducibility | 42 | Any integer |
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 The MolQAE model consists of several key components:
 
@@ -127,7 +143,7 @@ The MolQAE model consists of several key components:
 - Mirror architecture of the encoder for quantum state reconstruction
 - High-fidelity molecular representation recovery
 
-## 📊 Training Output
+## Training Output
 
 The training process generates:
 
@@ -151,7 +167,7 @@ results/
     └── trash_deviation_comparison.png
 ```
 
-## 🔬 Model Evaluation
+## Model Evaluation
 
 ### Programmatic Evaluation
 
@@ -177,7 +193,7 @@ print(f"Test Trash Deviation: {results['trash_deviation']:.4f}")
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MolQAE/
@@ -193,27 +209,7 @@ MolQAE/
     └── molqae_*/        # Experiment-specific results
 ```
 
-
-
-
-## 🔬 Research Paper
-
-This work has been accepted at the **2025 IEEE International Conference on Quantum Artificial Intelligence**. 
-
-**Citation:**
-```bibtex
-@misc{pan2025molqaequantumautoencodermolecular,
-      title={MolQAE: Quantum Autoencoder for Molecular Representation Learning}, 
-      author={Yi Pan and Hanqi Jiang and Wei Ruan and Dajiang Zhu and Xiang Li and Yohannes Abate and Yingfeng Wang and Tianming Liu},
-      year={2025},
-      eprint={2505.01875},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph},
-      url={https://arxiv.org/abs/2505.01875}, 
-}
-```
-
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
